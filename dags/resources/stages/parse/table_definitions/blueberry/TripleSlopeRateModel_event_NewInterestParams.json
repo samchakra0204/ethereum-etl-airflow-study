@@ -1,0 +1,87 @@
+{
+    "parser": {
+        "abi": {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "baseRatePerSecond",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "multiplierPerSecond",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "jumpMultiplierPerSecond",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "kink1",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "kink2",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "roof",
+                    "type": "uint256"
+                }
+            ],
+            "name": "NewInterestParams",
+            "type": "event"
+        },
+        "contract_address": "0xc82151fc8c8f4c8042beea293feab8764221d7fd",
+        "field_mapping": {},
+        "type": "log"
+    },
+    "table": {
+        "dataset_name": "blueberry",
+        "schema": [
+            {
+                "description": "",
+                "name": "baseRatePerSecond",
+                "type": "STRING"
+            },
+            {
+                "description": "",
+                "name": "multiplierPerSecond",
+                "type": "STRING"
+            },
+            {
+                "description": "",
+                "name": "jumpMultiplierPerSecond",
+                "type": "STRING"
+            },
+            {
+                "description": "",
+                "name": "kink1",
+                "type": "STRING"
+            },
+            {
+                "description": "",
+                "name": "kink2",
+                "type": "STRING"
+            },
+            {
+                "description": "",
+                "name": "roof",
+                "type": "STRING"
+            }
+        ],
+        "table_description": "",
+        "table_name": "TripleSlopeRateModel_event_NewInterestParams"
+    }
+}
